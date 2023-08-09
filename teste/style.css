@@ -9,6 +9,8 @@ h1 {
     padding: 20px 0;
     color: #00539f;
     text-shadow: 3px 3px 3px black;
+    border: 5px solid black;
+    border-radius: 40px;
 }
 
 p,

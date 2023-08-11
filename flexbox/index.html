@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinando flexbox</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0 0 0 0;
+            box-sizing: border-box;
+        }
+
+        p{
+            padding: 70px 0px 0px 105px;
+            font-size: 20pt;
+            font-weight: bold;
+        }
+
+        .container{
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-end;
+        }
+
+        .child {
+            width: 20%;
+            height: 200px;
+            background-color: red;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <div style="order: 3;" class="child"><p>box 4</p></div>
+        <div style="order: 2;" class="child"><p>box 3</p></div>
+        <div style="order: 1;" class="child"><p>box 2</p></div>
+        <dic style="order: 0;" class="child"><p>box 1</p></div>
+
+    </div>
+    
+</body>
+</html>

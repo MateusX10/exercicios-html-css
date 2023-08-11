@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixa</title>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            padding: 8px 1px 0 1px;
+            display: flex;
+            flex-direction: row;     
+            justify-content: space-between; 
+            align-items: center;
+        }
+
+
+        .container2{
+            display: flex;
+            flex-direction: center;
+            justify-content: center;
+        }
+
+        .sidebar{
+            padding: 20px 0 0 0;
+            height: 450px;
+            width: 32.7%;
+            background-color: cyan;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        .content{
+            padding: 20px 0 0 0;
+            height: 450px;
+            width:  66.7%;
+            background-color: cyan;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        .header{
+            padding: 45px 0 0 0;
+            height: 140px;
+            width: 100%;
+            background-color: green;
+            border: 2px solid green;
+            text-align: center;
+
+        }
+
+        .footer{
+            padding: 40px 0 0 0;
+            height: 100px;
+            width: 100%;
+            background-color: green;
+            border: 2px solid green;
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container2">
+        <div class="header">Header</div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content</div>    
+    </div>
+    <div class="container2">
+        <div class="footer">Footer</div>
+    </div>
+
+    
+</body>
+</html>

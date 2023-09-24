@@ -1,0 +1,36 @@
+body {
+    background-color: blue;
+}
+
+p {
+    color: yellow;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 23px;
+}
+
+h3{
+    font-size: 21px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5{
+    font-size: 16px;
+}
+
+h6{
+    font-size: 14px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEMPLO 2</title>
+
+    <style>
+        .city{
+            background-color: purple;
+            color: black;
+            font-size: 115%;
+            border: 10px solid white;
+            text-align: center;
+                }
+    </style>
+</head>
+<body style="background-color: red;">
+    
+    <div class="city">
+        <p>A city is a big town</p>
+    </div>
+    <h1 class="city main">HEADER 0</h1>
+    <h1 class="city">HEADER</h1>
+    <h1 class="city">HEADER 2</h1>
+
+    <script>
+        function MyFunction(){
+            var x = document.getElementByClassName("city");
+            for (var i=0; i <= x.length; i++){
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

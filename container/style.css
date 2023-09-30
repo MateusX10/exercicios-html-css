@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    
+}
+
+.header{
+    background-color: darkgreen;
+    width: 980px;
+    height: 90px;
+    border: 1px solid black;
+    padding: 50px 0 0 0;
+   
+    
+}
+
+
+.sidebar{
+    background-color: lightgreen;
+    width: 270px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+}
+
+
+.footer{
+    background-color: darkgreen;
+    width: 980px;
+    height: 50px;
+    margin: 10px 0 0 0;
+    padding: 15px 0 0 0;
+}
